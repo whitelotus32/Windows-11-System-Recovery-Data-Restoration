@@ -98,6 +98,19 @@ The restoration effort focused on:
 
 ---
 
+## Detailed Documentation
+
+| Document | Description |
+|---|---|
+| [Incident Overview](documentation/01-incident-overview.md) | Incident background, impact, and recovery objectives |
+| [System Diagnostics](documentation/02-system-diagnostics.md) | Troubleshooting, disk investigation, and system assessment |
+| [Data Recovery](documentation/03-data-recovery.md) | Windows.old investigation, backup preparation, and Robocopy recovery |
+| [Windows Restoration](documentation/04-windows-restoration.md) | Windows 11 installation media and operating system restoration |
+| [Lessons Learned](documentation/05-lessons-learned.md) | Root cause, technical challenges, and prevention strategies |
+| [Post-Recovery Verification](documentation/post-recovery-verification.md) | Verification script, system health checks, and final results |
+
+---
+
 ## Technologies and Tools
 
 | Technology | Application |
