@@ -108,6 +108,8 @@ The restoration effort focused on:
 | [Windows Restoration](documentation/windows-restoration.md) | Windows 11 installation media and operating system restoration |
 | [Lessons Learned](documentation/lessons-learned.md) | Root cause, technical challenges, and prevention strategies |
 | [Post-Recovery Verification](documentation/post-recovery-verification.md) | Verification script, system health checks, and final results |
+| [PowerShell Recovery Verification Script](scripts/recovery-verification.ps1) | Custom PowerShell script for validating Windows 11, disk health, partitions, volumes, BIOS information, and Secure Boot status |
+
 
 ---
 
