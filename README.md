@@ -159,6 +159,7 @@ windows-11-system-recovery/
 │   ├── incident-overview.md
 │   ├── system-diagnostics.md
 │   ├── data-recovery.md
+│   ├── post-recovery-verification.md
 │   ├── windows-restoration.md
 │   └── lessons-learned.md
 │
