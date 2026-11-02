@@ -190,7 +190,8 @@ windows-11-system-recovery/
 │   ├── data-recovery.md
 │   ├── windows-restoration.md
 │   ├── lessons-learned.md
-│   └── post-recovery-verification.md
+│   ├── post-recovery-verification.md
+│   └── powershell-verification.md 
 │
 ├── screenshots/
 │   ├── system-diagnostics/
