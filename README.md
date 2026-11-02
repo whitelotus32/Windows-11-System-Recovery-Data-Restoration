@@ -102,11 +102,11 @@ The restoration effort focused on:
 
 | Document | Description |
 |---|---|
-| [Incident Overview](documentation/01-incident-overview.md) | Incident background, impact, and recovery objectives |
-| [System Diagnostics](documentation/02-system-diagnostics.md) | Troubleshooting, disk investigation, and system assessment |
-| [Data Recovery](documentation/03-data-recovery.md) | Windows.old investigation, backup preparation, and Robocopy recovery |
-| [Windows Restoration](documentation/04-windows-restoration.md) | Windows 11 installation media and operating system restoration |
-| [Lessons Learned](documentation/05-lessons-learned.md) | Root cause, technical challenges, and prevention strategies |
+| [Incident Overview](documentation/incident-overview.md) | Incident background, impact, and recovery objectives |
+| [System Diagnostics](documentation/system-diagnostics.md) | Troubleshooting, disk investigation, and system assessment |
+| [Data Recovery](documentation/data-recovery.md) | Windows.old investigation, backup preparation, and Robocopy recovery |
+| [Windows Restoration](documentation/windows-restoration.md) | Windows 11 installation media and operating system restoration |
+| [Lessons Learned](documentation/lessons-learned.md) | Root cause, technical challenges, and prevention strategies |
 | [Post-Recovery Verification](documentation/post-recovery-verification.md) | Verification script, system health checks, and final results |
 
 ---
@@ -155,9 +155,25 @@ This incident reinforced several important systems administration practices:
 
 ## Project Outcome
 
-This project documents a real-world workstation recovery scenario involving operating system misconfiguration, storage investigation, data preservation, and Windows restoration.
+Successfully restored the workstation to a functional Windows 11 environment and recovered approximately 114 GB of user data from the previous installation.
 
-It demonstrates the practical troubleshooting methodology required to diagnose system-level issues, evaluate recovery options, and restore a workstation to a functional operating environment.
+The Robocopy recovery operation reported:
+
+- **377,602** files copied
+- **61,409** directories copied
+- **3** failed files
+- **0** mismatches
+
+Post-recovery verification was performed using a custom PowerShell script. The final report recorded:
+
+- **6 PASS**
+- **0 WARN**
+- **0 FAIL**
+- **0 UNKNOWN**
+
+The recovery process was not completely error-free. A small number of files could not be copied, and certain directory attribute operations generated errors. These limitations are documented in the recovery evidence.
+
+This project demonstrates practical experience with Windows troubleshooting, disk management, data preservation, operating system restoration, and PowerShell-based system verification.
 
 ---
 
